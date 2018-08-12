@@ -175,7 +175,7 @@ def train_model_SVC(clf, X_train, y_train, X_test, y_test):
 ##%%-----------------------------------------------------------------------
 # III. Random Forest
 
-clf_rf = RandomForestClassifier(n_estimators=500, min_samples_leaf=50, n_jobs=-1, random_state=1)
+clf_rf = RandomForestClassifier(n_estimators=100, random_state=1)
 train_model(clf_rf, X_train, y_train, X_test, y_test)
 
 ##%%-----------------------------------------------------------------------
