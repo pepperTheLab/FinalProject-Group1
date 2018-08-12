@@ -200,10 +200,7 @@ train_model(clf_nb, X_train, y_train, X_test, y_test)
 
 ##%%-----------------------------------------------------------------------
 # IV. SVM
-# Non-Linear
-clf_svm = SVC(kernel='linear', probability=True)
-train_model(clf_svm, X_train, y_train, X_test, y_test)
-# Linear
+
 clf_svm = LinearSVC(random_state=100)
 train_model_SVC(clf_svm, X_train, y_train, X_test, y_test)
 
