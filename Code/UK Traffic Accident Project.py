@@ -28,6 +28,7 @@ warnings.filterwarnings("ignore")
 ##%%-----------------------------------------------------------------------
 # I. Data Preprocessing
 # load the data
+# the original csv is too large to upload, so we divide to two csv files
 df1 = pd.read_csv('uk_accident_data_p1.csv')
 df2 = pd.read_csv('uk_accident_data_p2.csv')
 df = df1.append(df2).copy()
