@@ -3,11 +3,11 @@
 
 Dataset:
 
-1. Annual Average Daily Traffic in London:
+1. Traffic accidents in London:
 https://www.kaggle.com/yesterdog/eda-of-1-6-mil-traffic-accidents-in-london/data
 
 2. Dataset Information:
-The data were downloaded from Kaggle, named “1.6 million UK traffic accidents”. 
+The data were downloaded from Kaggle, named “1.6 million UK traffic accidents”, 2012-2014 csv file. 
 It has more than 400,000 observations and over 30 features 
 (location, accident severity, weather conditions and date, etc).
 
@@ -35,4 +35,13 @@ It has more than 400,000 observations and over 30 features
       - Did_Police_Officer_Attend_Scene_of_Accident
       - Hour
       - Peak
+
+Steps:
+1. Data preprocessing (One Hot encoding, check NAs, descriptive statistics)
+2. Define the confusion_heatmap, get_performance_metrics, plot_roc_auc, train_model functions
+3. train network classifiers (random forest, MLP, naive bayes, linear SVC)
+4. display performance metrics, confusion heatmap, roc plot for each model. 
+
+
+
 
